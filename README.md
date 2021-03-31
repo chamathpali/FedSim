@@ -1,4 +1,3 @@
 # FedSim
-FL
 
-Source code for FedSim will be updated here.
+Source code for FedSim will be available when the paper is accepted.
