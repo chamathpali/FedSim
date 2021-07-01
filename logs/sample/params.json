@@ -1,0 +1,1 @@
+{"eval_every": 1, "batch_size": 10, "num_rounds": 200, "seed": 0, "clients_per_round": 20, "model_params": [26], "mu": 0, "ex_name": "nist_0", "num_groups": 9, "model": "mclr", "dataset": "nist", "num_epochs": 20, "num_iters": 1, "learning_rate": 0.003, "drop_percent": 0.0, "optimizer": "fedsim"}
