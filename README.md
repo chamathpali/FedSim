@@ -7,7 +7,7 @@ bash run_fedsim.sh DATASET_NAME DROP_PERC NUM_CLUSTERS NUM_CLIENTS Run_Name
 bash run_fedsim.sh mnist 0 9 20 mnist_run
 ```
 
-FedSim algorithm implementation is available in `flearn/trainers/fedsim.py`.
+FedSim algorithm implementation is available in [`flearn/trainers/fedsim.py`](https://github.com/chamathpali/FedSim/blob/main/flearn/trainers/fedsim.py).
 
 ## Reproduce results
 
