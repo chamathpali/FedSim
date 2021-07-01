@@ -11,6 +11,7 @@ FedSim algorithm implementation is available in `flearn/trainers/fedsim.py`.
 
 ## Reproduce results
 
+
 The experiments performed on all the datasets were carried out with 35 random seeds (from 0 to 34 incremented by 1) to empirically demonstrate the significance. Repetition of the same experiment with different random seeds helps to reduce the sampling error of our experiments.
 
 For a single dataset, run rounds of FedSim, FedAvg and FedProx where each run will generate a single folder in the `logs` folder, as a reference we have added a sample log folder with the results in `logs/sample/`
@@ -26,7 +27,6 @@ Once the experiments are completed, create the summary log files with the 3 meth
 3. Figure 6 - Results on synthetic datasets - `plot_fedsim_main.py` change line #123 to `if(True)`
 
 4. Figure 7 - Results on other learning models - `plot_fedsim_other.py`
-
 
 ## Experiment setup
 We have adapted the experiment setup from [FedProx](https://github.com/litian96/FedProx) and [Leaf Benchmark](https://github.com/TalwalkarLab/leaf) work. Thanks for the support by [Tian Li](https://github.com/litian96).
@@ -63,3 +63,15 @@ When running on GPU specify the id and then run the experiments
 ```
 export CUDA_VISIBLE_DEVICES=GPU_ID
 ```
+
+### Results
+
+
+![](https://raw.githubusercontent.com/chamathpali/FedSim/main/images/full_results_real.png)
+
+_Figure 3: Comparison of performances over communication rounds with real-world datasets_
+
+
+![](https://raw.githubusercontent.com/chamathpali/FedSim/main/images/compare_results_real.png)
+
+_Figure 5: Accuracy improvements of FedSim compared to FedAvg and FedProx of experiments in Figure 3. Values below zero indicate negative performance against a baseline and grey vertical lines denote areas of no statistical significance_
