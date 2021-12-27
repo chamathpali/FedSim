@@ -3,6 +3,18 @@ _Similarity Guided Model Aggregation for Federated Learning_
 
 This work is published at the **Neurocomputing Journal [FedSim: Similarity guided model aggregation for Federated Learning](https://doi.org/10.1016/j.neucom.2021.08.141)**
 
+Bibtext
+```
+@article{palihawadana2021fedsim,
+  title={FedSim: Similarity guided model aggregation for Federated Learning},
+  author={Palihawadana, Chamath and Wiratunga, Nirmalie and Wijekoon, Anjana and Kalutarage, Harsha},
+  journal={Neurocomputing},
+  year={2021},
+  publisher={Elsevier}
+}
+```
+
+
 ## Usage
 ```shell
 bash run_fedsim.sh DATASET_NAME DROP_PERC NUM_CLUSTERS NUM_CLIENTS Run_Name
